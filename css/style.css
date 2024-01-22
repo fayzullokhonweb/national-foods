@@ -1,0 +1,359 @@
+@font-face {
+  font-display: swap;
+  font-family: 'League Spartan';
+  font-style: normal;
+  font-weight: 300;
+  src: url('../fonts/league-spartan-v11-latin-300.woff2') format('woff2');
+}
+
+@font-face {
+  font-display: swap;
+  font-family: 'League Spartan';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../fonts/league-spartan-v11-latin-regular.woff2') format('woff2');
+}
+
+@font-face {
+  font-display: swap;
+  font-family: 'League Spartan';
+  font-style: normal;
+  font-weight: 500;
+  src: url('../fonts/league-spartan-v11-latin-500.woff2') format('woff2');
+}
+
+@font-face {
+  font-display: swap;
+  font-family: 'League Spartan';
+  font-style: normal;
+  font-weight: 600;
+  src: url('../fonts/league-spartan-v11-latin-600.woff2') format('woff2');
+}
+
+@font-face {
+  font-display: swap;
+  font-family: 'League Spartan';
+  font-style: normal;
+  font-weight: 700;
+  src: url('../fonts/league-spartan-v11-latin-700.woff2') format('woff2');
+}
+
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+
+a {
+  text-decoration: none;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+img {
+  display: flex;
+  object-fit: cover;
+}
+
+body {
+  color: #242B37;
+  font-family: "League Spartan", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 30px;
+}
+
+.container {
+  width: 100%;
+  max-width: 1500px;
+  padding-right: 30px;
+  padding-left: 30px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.btn {
+  width: 245px;
+  border: 1px solid #FFF;
+  padding: 25px 55px 23px 54px;
+  color: #FFF;
+  font-size: 17px;
+  font-weight: 600;
+  line-height: 16px;
+  letter-spacing: 2.5px;
+  cursor: pointer;
+}
+
+/* HERO START */
+.hero {
+  padding-top: 40px;
+}
+
+.hero__container {
+  background-image: url('../images/homepage/hero-bg-desktop.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 65px 165px 198px 170px;
+  margin-bottom: 177px;
+}
+
+.hero__logo {
+  margin-bottom: 153px;
+}
+
+.hero__title {
+  width: 508px;
+  color: #FFF;
+  font-size: 80px;
+  font-weight: 300;
+  line-height: 80px;
+  letter-spacing: -1px;
+  margin-bottom: 10px;
+}
+
+.hero__description {
+  width: 445px;
+  color: #FFF;
+  margin-bottom: 40px;
+}
+
+.hero__btn {}
+
+/* HERO END */
+
+/* PLACE START */
+.place {}
+
+.place__container {
+  display: flex;
+  background-image: url('../images/patterns/pattern-curve-top-right.svg');
+  background-position: 0 70px;
+  background-repeat: no-repeat;
+  padding-left: 170px;
+}
+
+.place__img {
+  width: 540px;
+  height: 720px;
+  margin-top: -247px;
+  margin-bottom: 121px;
+}
+
+.container {}
+
+.place__content {
+  width: 445px;
+  margin-left: 125px;
+}
+
+.place__content-img {
+  margin-bottom: 55px;
+}
+
+.place__content-title {
+  width: 390px;
+  margin-bottom: 27px;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 48px;
+  letter-spacing: -0.5px;
+}
+
+/* PLACE END */
+
+/* LOCALLY FOODS START */
+.locally-food {}
+
+.locally-food__container {
+  display: flex;
+  gap: 122px;
+  align-items: center;
+  padding-left: 170px;
+  background-image: url('../images/patterns/pattern-curve-top-left.svg');
+  background-position: right bottom;
+  background-size: 1000px;
+  background-repeat: no-repeat;
+
+}
+
+
+.locally-food__content {
+  margin-top: 200px;
+  width: 445px;
+  margin-bottom: 165px;
+}
+
+
+.locally-food__images {
+  display: flex;
+  align-items: center;
+}
+
+.locally-food__iamges-wrapper {
+  width: 540px;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.locally-food__images-first {}
+
+.locally-food__images-second {
+  margin-left: -46px;
+}
+
+/* LOCALLY FOODS END */
+
+/* PROMO START */
+
+.promo {
+  padding-bottom: 160px;
+}
+
+.promo__container {
+  display: flex;
+  gap: 125px;
+  padding: 0 170px 120px 170px;
+  background-color: #111;
+  margin-top: -70px;
+  color: #FFF;
+}
+
+.container {}
+
+.locally-food__content {}
+
+.place__content-img {}
+
+.place__content-title {}
+
+.place__content-description {}
+
+.promo__list {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  margin-top: 254px;
+}
+
+.promo__item {
+  display: flex;
+  gap: 22px;
+  align-items: center;
+}
+
+.promo__item-img {}
+
+.promo__item-line {
+  margin-top: -35px;
+  margin-left: -22px;
+}
+
+.promo__line {
+  width: 540px;
+  height: 1px;
+  flex-shrink: 0;
+  opacity: 0.1494;
+  background: #FFF;
+}
+
+.promo__item__box {}
+
+.promo__item__box-title {}
+
+.promo__item__box-text {
+  width: 350px;
+}
+
+/* PROMO END */
+
+
+/* READY START  */
+.ready {}
+
+.ready__container {
+  padding: 99px 165px 93px 170px;
+  background-image: url('../images/homepage/ready-bg-tablet.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  gap: 245px;
+
+}
+
+.container {}
+
+.ready__title {
+  color: #FFF;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 48px;
+  letter-spacing: -0.5px;
+}
+
+.ready__btn {
+  width: 260px;
+
+}
+
+.btn {}
+
+/* READY END */
+
+
+/* FOOTER START */
+.footer {
+  padding-bottom: 40px;
+}
+
+.footer__container {
+  display: flex;
+  background-color: #111;
+  padding: 78px 165px 76px 170px;
+  color: #FFF;
+  font-family: "League Spartan";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+.container {}
+
+.footer__logo {
+  width: 103px;
+  height: 40px;
+  margin-right: 193px;
+}
+
+.address {
+  font-style: normal;
+  margin-right: 124px;
+
+}
+
+.address__text {}
+
+.address__tel {
+  font-style: normal;
+  color: inherit;
+}
+
+.footer__content {}
+
+.footer__content-text {}
+
+/* FOOTER END */
